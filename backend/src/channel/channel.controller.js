@@ -37,7 +37,7 @@ export const getChannelDetails = async (req, res) => {
       id: channel._id,
       title: channel.title,
       description: channel.description,
-      username: user.username,
+     // username: user.username,
       isOnline,
       streamUrl: streamUrl,
     });
